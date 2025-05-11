@@ -1,0 +1,35 @@
+{
+    "name": "socialiteproviders/dexidp",
+    "description": "Dex Idp Login OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "dex",
+        "dexidp",
+        "login",
+        "oauth",
+        "provider",
+        "socialite"
+    ],
+    "authors": [
+        {
+            "name": "Sandro Jäckel",
+            "email": "sandro.jaeckel@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/socialiteproviders/providers/issues",
+        "source": "https://github.com/socialiteproviders/providers",
+        "docs": "https://socialiteproviders.com/lifesciencelogin"
+    },
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\DexIdp\\": ""
+        }
+    }
+}
